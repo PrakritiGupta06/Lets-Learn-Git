@@ -1,0 +1,46 @@
+body
+{
+    background-color: #ffe6e6;
+}
+h1 
+{
+    text-transform: capitalize;
+    font-size: large;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 2px;
+}
+input [type="text"] {
+    color:"rgb(255, 80, 80)",
+}
+button:hover{
+    background-color:magenta;
+    color:white;
+  }
+  button:active{
+    background-color:aqua;
+    color:white;
+  }
+  input [type="submit"]:hover {
+      background-color:yellowgreen;
+  }
+  input [type="radio"]:checked {
+      box:shadow= 000 3px hotpink;
+    background-color:yellowgreen;
+}
+h1::first-letter{
+    color:crimson;
+    font-size: 50px;
+}
+h4::first-line{
+    color:hotpink;
+}
+::selection{
+    background-color: lawngreen;
+    color:lemonchiffon;
+}
+button:active{
+    background-color:aqua !important;
+    color:white !important;
+}
